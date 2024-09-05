@@ -1,0 +1,159 @@
+/* Custom Font Faces */
+@font-face {
+    font-family: 'Graphicus DT Bold Oblique';
+    src: url('graphicusdt-boldoblique.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'FuturaEF Heavy';
+    src: url('FuturaEF-Heavy.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Dundee Bold';
+    src: url('DundeeBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura No. 2 Medium';
+    src: url('futura-no-2-medium-dee.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura TS ExtraBold';
+    src: url('futura-ts-extrabold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Twentieth Century Bold";
+    src: url('Twentieth Century Bold.ttf') format('truetype');
+}
+
+
+
+
+
+/* Mobile Styles (up to 480px) */
+@media (max-width: 480px) {
+    .content {
+        padding: 10px;
+        padding-top: 50px;
+    }
+
+    .content h1 {
+        font-size: 24px;
+    }
+
+    .content p {
+        font-size: 16px;
+        text-align: justify;
+        padding: 12px;
+    }
+    .assistance p {
+        font-size: 17px; /* Adjust font size for readability on mobile screens */
+        line-height: 1.5; /* Increase line-height for better readability */
+        margin: 0; /* Remove default margin to control spacing */
+        padding: 0; /* Remove default padding */
+    }
+
+    .assistance p + {
+        margin-top: 10px; /* Add spacing between paragraphs */
+    }
+
+    .assistance {
+        padding: 20px; /* Adjust padding for mobile view */
+        text-align: center; /* Center text alignment for mobile screens */
+    }
+
+    .assistance .contact-btn {
+        font-size: 14px; /* Adjust font size for the button */
+        padding: 12px 25px; /* Adjust padding for the button */
+        right: 10px; /* Adjust positioning for mobile screens */
+        top: 50%; /* Adjust top position for mobile */
+        transform: translate(-10%, 60%); /* Adjust transform to keep button visible */
+    }
+    .footer {
+        padding: 30px 10px;
+       
+        
+    }
+
+    .footer p {
+        font-size: 12px;
+    }
+
+    .header {
+        padding: 30px;
+    }
+
+    .header .text {
+        font-size: 20px;
+    }
+}
+
+
+.assistance h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+
+
+
+/* Tablet Styles (481px to 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+    .content {
+        padding: 15px;
+    }
+
+    .content h1 {
+        font-size: 28px;
+    }
+
+    .content p {
+        font-size: 17px;
+        padding-top: 10px;
+        
+    }
+
+    .assistance {
+        padding: 30px;
+        max-width: 90%;
+        
+       
+    }
+
+    .assistance .contact-btn {
+        font-size: 16px;
+        padding: 10px 20px;
+        right: 20px;
+        top: 65%;
+        transform: translate(0, 15%);
+    }
+
+    .footer {
+        padding: 50px 20px;
+        margin-top: 110px;
+    }
+
+    .footer p {
+        font-size: 140px;
+    }
+
+    .header {
+        padding: 40px;
+    }
+
+    .header .text {
+        font-size: 24px;
+    }
+}
